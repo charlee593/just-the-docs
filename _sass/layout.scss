@@ -37,6 +37,13 @@
   }
 }
 
+.sidebar-fix{
+  @include mq(md) {
+    position: fixed;
+    top: 0;
+  }
+}
+
 .main-content-wrap {
   @include mq(md) {
     position: relative;
@@ -188,7 +195,7 @@
 
 body {
   position: relative;
-  padding-bottom: $sp-10;
+  // padding-bottom: $sp-10;
 
   @include mq(md) {
     position: static;
@@ -209,5 +216,9 @@ body {
   @include mq(md) {
     position: static;
     justify-self: end;
+  }
+
+  @include mq(sm) {
+    display:none;
   }
 }

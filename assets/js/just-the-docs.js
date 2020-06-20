@@ -284,6 +284,7 @@ function initSearch() {
 //   mainContent.focus();
 // }
 
+
 // Document ready
 
 jtd.onReady(function(){
@@ -295,8 +296,9 @@ jtd.onReady(function(){
       initSearch();
     }
   }
+  {% include js/custom.js %}
 });
 
 })(window.jtd = window.jtd || {});
 
-{% include js/custom.js %}
+
