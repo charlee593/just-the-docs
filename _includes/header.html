@@ -1,12 +1,16 @@
 <div class='header {{include.headerClass}}'>
   <!-- <div class="container"> -->
     <div class="logo">
-      {% include title.html %}
+      <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">
+        {% include title.html %}
+      </a>
       <!-- <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include title.html %}</a> -->
       <!-- <a href="{{site.baseurl}}/"><img alt="Figurit Homepage" src="{{site.baseurl}}/assets/images/logo.svg" /></a> -->
     </div>
     <div class="logo-mobile">
-      {% include title.html %}
+      <a href="{{site.baseurl}}/">
+        {% include title.html %}
+      </a>
       <!-- <a href="{{site.baseurl}}/"><img alt="Figurit Homepage" src="{{site.baseurl}}/assets/images/logo-mobile.svg" /></a> -->
     </div>
     {% include main-menu.html %}
