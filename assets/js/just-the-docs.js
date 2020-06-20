@@ -25,7 +25,7 @@ jtd.onReady = function(ready) {
 
 function initNav() {
   const mainNav = document.querySelector('.js-main-nav');
-  const pageHeader = document.querySelector('.js-page-header');
+  // const pageHeader = document.querySelector('.js-page-header');
   const navTrigger = document.querySelector('.js-main-nav-trigger');
 
   jtd.addEvent(navTrigger, 'click', function(e){
@@ -34,7 +34,7 @@ function initNav() {
     var textToggle = navTrigger.getAttribute('data-text-toggle');
 
     mainNav.classList.toggle('nav-open');
-    pageHeader.classList.toggle('nav-open');
+    // pageHeader.classList.toggle('nav-open');
     navTrigger.classList.toggle('nav-open');
     navTrigger.innerText = textToggle;
     navTrigger.setAttribute('data-text-toggle', text);
