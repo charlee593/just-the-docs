@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Tables
 parent: UI Components
 nav_order: 4

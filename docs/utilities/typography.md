@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Typography
 parent: Utilities
 nav_order: 4

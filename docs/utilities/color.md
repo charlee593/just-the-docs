@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Color
 parent: Utilities
 nav_order: 3

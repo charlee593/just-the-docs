@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Configuration
 nav_order: 2
 ---

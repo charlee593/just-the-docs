@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Code
 parent: UI Components
 nav_order: 6

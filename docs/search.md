@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Search
 nav_order: 7
 ---

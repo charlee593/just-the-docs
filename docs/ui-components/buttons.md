@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Buttons
 parent: UI Components
 nav_order: 2

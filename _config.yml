@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Just the Docs
 description: A Jekyll theme for documentation
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+# baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
 url: "https://pmarsceill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -43,6 +43,28 @@ footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
+
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89

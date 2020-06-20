@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Responsive Modifiers
 parent: Utilities
 nav_order: 1

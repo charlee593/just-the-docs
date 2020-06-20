@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Customization
 nav_order: 6
 ---

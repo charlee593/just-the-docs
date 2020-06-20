@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Lists
 parent: UI Components
 nav_order: 5
