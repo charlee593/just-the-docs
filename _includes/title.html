@@ -1,5 +1,8 @@
 {% if site.logo %}
-  <div class="site-logo"></div>
+  <div class="site-logo" href="{{site.baseurl}}/"></div>
+
 {% else %}
-  {{ site.title }}
+  <div class="site-title">
+    {{ site.title }}
+  </div>
 {% endif %}
