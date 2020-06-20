@@ -287,10 +287,13 @@ function initSearch() {
 // Document ready
 
 jtd.onReady(function(){
-  initNav();
-  // pageFocus();
-  if (typeof lunr !== 'undefined') {
-    initSearch();
+  const mainNav = document.querySelector('.js-main-nav');
+  if (mainNav){
+    initNav();
+    // pageFocus();
+    if (typeof lunr !== 'undefined') {
+      initSearch();
+    }
   }
 });
 
