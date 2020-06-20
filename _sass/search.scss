@@ -8,6 +8,7 @@
   flex-grow: 1;
   width: 100%;
   border-bottom: $border $border-color;
+  border-top: $border $border-color;
   margin-bottom: $sp-3;
   padding: $sp-2;
   @include mq(md) {

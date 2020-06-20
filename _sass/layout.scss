@@ -70,11 +70,11 @@
 
 .page {
   @include container;
-  padding-top: $gutter-spacing-sm;
+  // padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
 
   @include mq(md) {
-    padding-top: $gutter-spacing;
+    // padding-top: $gutter-spacing;
     padding-bottom: $gutter-spacing;
   }
 }
@@ -115,11 +115,11 @@
 
 .navigation {
   @include container;
-  overflow: scroll;
-  height: 100%;
+  overflow: auto; 
+  height: 100%; 
 
   @include mq(md) {
-    // padding-top: $sp-8;
+    // padding-top: $sp-2;
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;
@@ -177,7 +177,8 @@
   text-transform: uppercase;
   background: transparent;
   border: 0;
-
+  margin-left: auto;
+  
   @include mq(md) {
     display: none;
   }
