@@ -31,7 +31,7 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
 # Enable or disable heading anchors
-heading_anchors: true
+# heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
